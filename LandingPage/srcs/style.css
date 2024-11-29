@@ -67,8 +67,7 @@ html, body{
     background-color: #1F2937;
     position: sticky;
     top: 0;
-    width: 100%;
-    z-index: 1000;
+    z-index: 9999;
 
 }
 
