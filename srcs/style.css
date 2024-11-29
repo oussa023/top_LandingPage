@@ -1,0 +1,178 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.websiteIntro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Intro{
+    background-color: #1F2937;
+    padding: 5px 100px;
+
+}
+
+#headerLogo{
+    color: white;
+    font-weight: 999;
+    font-family: "Roboto", sans-serif;
+}
+
+#headerList {
+    color: white;
+    display: flex;
+    gap: 10px;
+    font-weight: 200;
+    font-size: medium;
+}
+
+
+#headerIntro{
+    color: white;
+    font-weight: 999;
+    font-size: 48px;
+    margin-bottom: 2px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+#subtextIntro {
+    color: white;
+    font-size: small;
+    margin-bottom: 2px;
+}
+
+#buttonIntro {
+    background-color: #3882F6;
+    padding: 4px 28px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: white;
+}
+
+#imgIntro {
+    width: 500px;
+    height: 230px;
+    margin-left: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background-color: #1F2937;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#RandomHeader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.Product {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+
+}
+
+#centered {
+    font-size: 18px;
+    text-align: center;
+}
+
+#centered-products {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 120px;
+    padding: 0px 10px;
+}
+
+.Thor-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+    
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+#quotee {
+    text-align: right;
+}
+
+.SignUp{
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 80px 120px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#CallToAction{
+    color: white;
+    font-weight: 999;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+#SignUpCall {
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+#SignUpCall-Button{
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 4px 30px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#copyright{
+    color: white;
+    font-size: 12px;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
